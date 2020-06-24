@@ -1,7 +1,8 @@
 import math
 
 class Point:
-    __x=0 # private 변수
+    # private 변수
+    __x=0
     __y=0
     #생성자
     def __init__(self, x,y):
