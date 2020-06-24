@@ -6,4 +6,7 @@ def calpi(num):
 
 print(" i              m(i)")
 for k in range(1,1001, 100):
-    print("%3d            %.4f"%(k,calpi(k)))
+    print("%d"%k, end="")
+    if k==1:
+        print("  ", end="")
+    print("             %5.4f"%calpi(k))
