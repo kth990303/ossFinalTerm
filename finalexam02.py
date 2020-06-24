@@ -17,7 +17,8 @@ class Point:
         y=self.y+self2.y
         print("(%d, %d)"%(x,y))
 
-p1=Point(1,1)
-p2=Point(2,2)
-p1.distance(p2)
-p1.__add__(p2)
+if __name__ == "__main__":
+    p1=Point(1,1)
+    p2=Point(2,2)
+    p1.distance(p2)
+    p1.__add__(p2)
